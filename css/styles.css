@@ -1,0 +1,41 @@
+nav{
+    width: 100%;
+    background-color: chartreuse;
+    color:black;
+    padding: 20px;
+    display: flex;
+}
+.btnUsuario{
+    font-size: 2em;
+}
+.menu{
+    visibility:visible;
+    display: grid;
+    place-content:center;
+    width: 20px;
+    margin: 0;
+}
+.fa-solid.fa-user:hover{
+    visibility: visible;
+    cursor:pointer;
+}
+.menu-item{
+    display: block;
+    padding:20px;
+
+}
+.menu-item:hover{
+   background:pink;
+}
+
+
+.menu{
+    text-decoration: none;
+}
+.menu-item .menu-link{
+    font-size:1.2em;
+    text-decoration: none;
+}
+
+               
+

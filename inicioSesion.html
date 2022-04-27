@@ -4,21 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylesIniciarSesion.css">
+
     <title>Iniciar Sesion</title>
 </head>
 <body>
-    
-    <form>
-        <p>
-            <label for="usuario"><b>Usuario: </b></label>
-            <input type="text" id="usuario" placeholder="Ingresa tu nombre de usuario..." required> 
-        </p>
-        <p>
-            <label for="password"><b>Password: </b></label>
-            <input type="password" id="password" placeholder="Ingresa tu password..." required>
-        </p>
-        <input type="submit" value="Iniciar Sesion">
-    </form>
+    <div class="formInicioSesion">
+        <form>
+            <p>
+                <label class="usuario" for="usuario"><b>Usuario: </b></label>
+                <input class="usuario"type="text" id="usuario" placeholder="Ingresa tu nombre de usuario..." required> 
+            </p>
+            <p>
+                <label class="password" for="password"><b>Password: </b></label>
+                <input class="password" type="password" id="password" placeholder="Ingresa tu password..." required>
+            </p>
+            <p>
+                <input class="btnIniciarSesion" type="submit" value="Iniciar Sesion">
+            </p>
+        </form>
+    </div>
+   
     
 </body>
 </html>
